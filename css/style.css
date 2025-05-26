@@ -1,4 +1,4 @@
-.hero {
-  background: linear-gradient(to right, #4a90e2, #007bff);
-  padding: 100px 20px;
+body {
+  background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9); /* Light green gradient */
+  color: #222; /* Keep text readable */
 }
