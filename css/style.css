@@ -1,1 +1,4 @@
-/* Basic styling and layout omitted for brevity. Use the previously provided CSS content here. */
+.hero {
+  background: linear-gradient(to right, #4a90e2, #007bff);
+  padding: 100px 20px;
+}
