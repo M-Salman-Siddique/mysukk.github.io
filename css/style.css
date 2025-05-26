@@ -1,4 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9); /* Light green gradient */
-  color: #222; /* Keep text readable */
+  background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9); /* soft light green */
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
 }
