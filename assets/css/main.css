@@ -2706,16 +2706,51 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
-			}
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(../../images/graphic-design.jpg) center center / cover no-repeat;
+    filter: blur(3px);
+    z-index: 0;
+}
+
+.style1 a,
+.style1 .content,
+.style1 h2 {
+    position: relative;
+    z-index: 1;
+}
+
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-			}
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(../../images/highrise-business-development.jpg) center center / cover no-repeat;
+    filter: blur(3px);
+    z-index: 0;
+}
+.style2 a,
+.style2 .content,
+.style2 h2 {
+    position: relative;
+    z-index: 1;
+}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(../../images/Chess-thrive-strategy-consultant.jpg) center center / cover no-repeat;
+    filter: blur(3px);
+    z-index: 0;
+}
+.style3 a,
+.style3 .content,
+.style3 h2 {
+    position: relative;
+    z-index: 1;
+}
 
 			.tiles article.style4 > .image:before {
 				background-color: #c75b9b;
